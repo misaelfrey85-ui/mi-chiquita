@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Chiquita ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="hearts-container"></div>
+
+<div id="intro">
+
+    <div class="arcade-box">
+
+        <h3>PLAYER 1: MISAEL</h3>
+        <h3>PLAYER 2: ROCÍO</h3>
+
+    </div>
+
+    <h1 class="titulo">
+        ❤️ MI CHIQUITA ❤️
+    </h1>
+
+    <p class="frase-principal">
+
+        Sé que no soy perfecto.<br><br>
+
+        Pero si pudiera elegir de nuevo,<br>
+        volvería a enamorarme de vos<br>
+        una y mil veces más.
+
+    </p>
+
+    <p class="frase-secundaria">
+
+        "Sé que no soy perfecto,
+        pero este cúmulo de errores te ama."
+
+    </p>
+
+    <div class="contador">
+
+        <h2>❤️ Tiempo juntos ❤️</h2>
+
+        <div id="timer"></div>
+
+    </div>
+
+    <button onclick="abrirHistoria()">
+        INICIAR AVENTURA ❤️
+    </button>
+
+</div>
+
+<section id="historia" class="hidden">
+
+    <div class="nivel">
+
+        <h2>🏆 LOGRO DESBLOQUEADO</h2>
+        <h3>Primer recuerdo juntos ❤️</h3>
+
+        <img src="fotos/primera_foto.jpg">
+
+        <p>
+            Todo empezó acá.
+            Una tarde cualquiera que terminó siendo el inicio
+            de mi historia favorita.
+        </p>
+
+    </div>
+
+    <div class="nivel">
+
+        <h2>❤️ Nivel 2 ❤️</h2>
+
+        <img src="fotos/hombro.jpg">
+
+        <p>
+            Mi lugar favorito nunca fue un lugar.
+
+            Siempre fuiste vos.
+        </p>
+
+    </div>
+
+    <div class="nivel">
+
+        <h2>❤️ Nivel 3 ❤️</h2>
+
+        <img src="fotos/beso.jpg">
+
+        <p>
+            Cada momento con vos termina convirtiéndose
+            en uno de mis recuerdos favoritos.
+        </p>
+
+    </div>
+
+    <div class="nivel">
+
+        <h2>❤️ Nivel 4 ❤️</h2>
+
+        <img src="fotos/espejo.jpg">
+
+        <p>
+
+            Mi amor.<br>
+            Mi niña.<br>
+            Mi bichito.<br>
+            Mi chiquita.
+
+        </p>
+
+    </div>
+
+    <div class="nivel">
+
+        <h2>🏆 LOGRO DESBLOQUEADO</h2>
+        <h3>La mejor decisión de mi vida ❤️</h3>
+
+        <img src="fotos/playa.jpg">
+
+    </div>
+
+    <div class="carta">
+
+        <h1>💌 Carta para Rocío 💌</h1>
+
+        <p>
+
+Tal vez no soy perfecto.
+
+Tal vez me equivoco.
+
+Tal vez hay muchas cosas que todavía tengo que aprender.
+
+Pero hay algo que jamás voy a dudar:
+
+TE AMO.
+
+Gracias por cada abrazo.
+Gracias por cada sonrisa.
+Gracias por cada tarde juntos.
+
+Gracias por hacerme sentir querido.
+
+Desde aquel día en que nos conocimos,
+mi vida cambió para siempre.
+
+No sé qué nos espera mañana.
+
+Pero sí sé que quiero seguir creando recuerdos con vos.
+
+Porque sos mi chiquita.
+
+Sos mi bichito.
+
+Sos mi persona favorita.
+
+Y aunque falle en muchas cosas,
+
+este cúmulo de errores te ama con todo su corazón.
+
+❤️
+
+Misael
+
+        </p>
+
+    </div>
+
+    <div class="final">
+
+        <h1>❤️ GAME COMPLETED ❤️</h1>
+
+        <h2>Premio desbloqueado:</h2>
+
+        <div class="reward">
+
+            ROCÍO ❤️
+
+        </div>
+
+        <p>
+
+            Mi chiquita ❤️<br>
+            Mi bichito ❤️<br>
+            Mi amor ❤️<br>
+            Mi persona favorita ❤️
+
+        </p>
+
+        <button onclick="mostrarFinal()">
+            CONTINUE?
+        </button>
+
+    </div>
+
+</section>
+
+<div id="mensajeFinal" class="hidden">
+
+    ❤️ Gracias por jugar esta aventura conmigo ❤️
+
+</div>
+
+<audio id="musica" loop>
+
+    <!-- reemplaza por tu archivo -->
+    <source src="music/sera.mp3" type="audio/mpeg">
+
+</audio>
+
+<button id="musicButton" onclick="toggleMusic()">
+
+🎵 Nuestra canción
+
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
